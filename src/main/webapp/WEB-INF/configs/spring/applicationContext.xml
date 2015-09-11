@@ -18,4 +18,5 @@
 		  expression="org.springframework.stereotype.Controller"/>
 	
 	</context:component-scan>
+	
 </beans>
