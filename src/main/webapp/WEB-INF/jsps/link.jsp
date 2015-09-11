@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>测试网页百度链接</title>
 </head>
 <body>
 	<a href="http://www.baidu.com">Go to baidu<img src="<%=request.getContextPath()%>/resources/images/01.jpg"/></a>
+	
+	姓名： ${userInfo.uname}
 </body>
 </html>
