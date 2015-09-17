@@ -19,11 +19,11 @@
 <body>
 <header>
   <div id="logo"><a href="/"></a></div>
-  <nav class="topnav" id="topnav"><a href="hello.do?method=mvc"><span>首页</span><span class="en">Protal</span></a><a href="hello.do?method=about"><span>关于我</span><span class="en">About</span></a><a href="hello.do?method=newlist"><span>慢生活</span><span class="en">Life</span></a><a href="hello.do?method=moodlist"><span>碎言碎语</span><span class="en">Doing</span></a><a href="hello.do?method=share"><span>模板分享</span><span class="en">Share</span></a><a href="hello.do?method=knowledge"><span>学无止境</span><span class="en">Learn</span></a><a href="hello.do?method=book"><span>留言版</span><span class="en">Gustbook</span></a></nav>
+  <nav class="topnav" id="topnav"><a href="<%= request.getContextPath()%>/hello/mvc"><span>首页</span><span class="en">Protal</span></a><a href="<%= request.getContextPath()%>/hello/about"><span>关于我</span><span class="en">About</span></a><a href="<%= request.getContextPath()%>/hello/newlist"><span>慢生活</span><span class="en">Life</span></a><a href="<%= request.getContextPath()%>/hello/moodlist"><span>碎言碎语</span><span class="en">Doing</span></a><a href="<%= request.getContextPath()%>/hello/share"><span>模板分享</span><span class="en">Share</span></a><a href="<%= request.getContextPath()%>/hello/knowledge"><span>学无止境</span><span class="en">Learn</span></a><a href="<%= request.getContextPath()%>/hello/book"><span>留言版</span><span class="en">Gustbook</span></a></nav>
   </nav>
 </header>
 <article class="blogs">
-  <h1 class="t_nav"><span>您当前的位置：<a href="hello.do?method=mvc">首页</a>&nbsp;&gt;&nbsp;<a href="/news/s/">模板分享</a>&nbsp;&gt;&nbsp;<a href="/news/s/">个人博客模板</a></span><a href="/" class="n1">网站首页</a><a href="/" class="n2">个人博客模板</a></h1>
+  <h1 class="t_nav"><span>您当前的位置：<a href="<%= request.getContextPath()%>/hello/mvc">首页</a>&nbsp;&gt;&nbsp;<a href="/news/s/">模板分享</a>&nbsp;&gt;&nbsp;<a href="/news/s/">个人博客模板</a></span><a href="/" class="n1">网站首页</a><a href="/" class="n2">个人博客模板</a></h1>
   <div class="index_about">
     <h2 class="c_titile">仿新浪博客风格·梅——古典个人博客模板</h2>
     <p class="box_c"><span class="d_time">发布时间：2013-09-08</span><span>编辑：杨青</span><span>互动QQ群：<a href="http://wp.qq.com/wpa/qunwpa?idkey=d4d4a26952d46d564ee5bf7782743a70d5a8c405f4f9a33a60b0eec380743c64">280998807</a></span></p>
