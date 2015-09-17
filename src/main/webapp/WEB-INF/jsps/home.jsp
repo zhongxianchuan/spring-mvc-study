@@ -19,7 +19,7 @@
 <body>
 <header>
   <div id="logo"><a href="/"></a></div>
-  <nav class="topnav" id="topnav"><a href="hello.do?method=mvc"><span>首页</span><span class="en">Protal</span></a><a href="hello.do?method=about"><span>关于我</span><span class="en">About</span></a><a href="hello.do?method=newlist"><span>慢生活</span><span class="en">Life</span></a><a href="hello.do?method=moodlist"><span>碎言碎语</span><span class="en">Doing</span></a><a href="hello.do?method=share"><span>模板分享</span><span class="en">Share</span></a><a href="hello.do?method=knowledge"><span>学无止境</span><span class="en">Learn</span></a><a href="hello.do?method=template"><span>留言版</span><span class="en">Gustbook</span></a></nav>
+  <nav class="topnav" id="topnav"><a href="<%= request.getContextPath()%>/hello/mvc"><span>首页</span><span class="en">Protal</span></a><a href="<%= request.getContextPath()%>/hello/about"><span>关于我</span><span class="en">About</span></a><a href="<%= request.getContextPath()%>/hello/newlist"><span>慢生活</span><span class="en">Life</span></a><a href="<%= request.getContextPath()%>/hello/moodlist"><span>碎言碎语</span><span class="en">Doing</span></a><a href="<%= request.getContextPath()%>/hello/share"><span>模板分享</span><span class="en">Share</span></a><a href="<%= request.getContextPath()%>/hello/knowledge"><span>学无止境</span><span class="en">Learn</span></a><a href="<%= request.getContextPath()%>/hello/book"><span>留言版</span><span class="en">Gustbook</span></a></nav>
   </nav>
 </header>
 <div class="banner">

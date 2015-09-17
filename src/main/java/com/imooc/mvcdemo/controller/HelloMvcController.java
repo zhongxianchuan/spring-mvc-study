@@ -11,60 +11,60 @@ import com.imooc.mvcdemo.model.UserInfo;
 import com.imooc.mvcdemo.service.UserService;
 
 @Controller
-@RequestMapping("/hello.do")
+@RequestMapping("/hello")
 public class HelloMvcController {
 	
 	@Autowired
 	private UserService userService;
-	@RequestMapping(params = "method=mvc")
+	@RequestMapping("/mvc")
 	//host:8080/hello/mvc
 	public String helloMvc(){
 		return "home";
 	}
 	
-	@RequestMapping(params = "method=baidu")
+	@RequestMapping("/baidu")
 	public String link(ModelMap modelMap){
 		UserInfo userInfo = userService.getUserById(3);
 		modelMap.addAttribute("userInfo", userInfo);
 		return "link";
 	}
 	
-	@RequestMapping(params = "method=about")
+	@RequestMapping("/about")
 	public String about(){
 		return "about";
 	}
 	
-	@RequestMapping(params = "method=caselist")
+	@RequestMapping("/caselist")
 	public String caselist(){
 		return "caselist";
 	}
 	
-	@RequestMapping(params = "method=knowledge")
+	@RequestMapping("/knowledge")
 	public String knowledge(){
 		return "knowledge";
 	}
 	
-	@RequestMapping(params = "method=moodlist")
+	@RequestMapping("/moodlist")
 	public String moodlist(){
 		return "moodlist";
 	}
 	
-	@RequestMapping(params = "method=new")
+	@RequestMapping("/new")
 	public String news(){
 		return "new";
 	}
 	
-	@RequestMapping(params = "method=newlist")
+	@RequestMapping("/newlist")
 	public String newlist(){
 		return "newlist";
 	}
 	
-	@RequestMapping(params = "method=share")
+	@RequestMapping("/share")
 	public String share(){
 		return "share";
 	}
 	
-	@RequestMapping(params = "method=template")
+	@RequestMapping("/book")
 	public String template(){
 		return "template";
 	}
